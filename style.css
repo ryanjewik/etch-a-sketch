@@ -1,0 +1,10 @@
+body{
+    background-color: whitesmoke;
+    align-items: center;
+}
+.background{
+    background-color: rgb(250, 57, 57);
+    width: 1000px;
+    height: 600px;
+    
+}
