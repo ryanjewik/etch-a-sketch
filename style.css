@@ -1,10 +1,44 @@
 body{
     background-color: whitesmoke;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+   
 }
-.background{
+
+.redbody{
     background-color: rgb(250, 57, 57);
     width: 1000px;
     height: 600px;
-    
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rows{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.columns{
+    margin: 10px;
+    justify-content: space-between;
+}
+.tile{
+    background-color: rgb(88, 88, 88);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.screen{
+    display:grid;
+    width: 800px;
+    height: 400px;
+    background-color: rgb(192, 192, 192);
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-auto-rows:auto;
+    grid-auto-columns:auto;
 }
