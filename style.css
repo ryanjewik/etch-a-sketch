@@ -27,18 +27,24 @@ body{
 }
 .tile{
     background-color: rgb(88, 88, 88);
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+    aspect-ratio: 1 / 1;
+
+    align-items: center;
 }
 
 .screen{
     display:grid;
     width: 1000px;
-    height: 700px;
+    height: 1000px;
     background-color: rgb(192, 192, 192);
-    column-gap: 10px;
-    row-gap: 10px;
-    grid-template-columns: auto auto auto auto;
+    column-gap: 5px;
+    row-gap: 5px;
+    /*
+    grid-template-rows: repeat(auto-fit, minmax(20px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(20px, 2fr));
+    grid-auto-flow: dense;
+    */
     justify-content: space-evenly;
+    grid-area:auto;
+
 }
